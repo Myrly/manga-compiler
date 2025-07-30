@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.1", features = ["derive"] }
+walkdir = "2.3"
+regex = "1.7"
+zip = "0.6"
+anyhow = "1.0"
